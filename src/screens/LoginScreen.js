@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import toast from 'react-hot-toast';
-import { loginUser } from '../../features/LoginSlice';
+import { loginUser} from "../features/LoginSlice"
 
 const Login = () => {
     const dispatch = useDispatch();
