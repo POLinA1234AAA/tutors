@@ -1,4 +1,4 @@
-// Ваш код сериализации в файле serializers/accountSerializer.js
+
 export const serializeAccount = (account) => {
     return {
         name: account.name,
